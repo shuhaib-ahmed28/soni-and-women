@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+
+}
+/* navbar */
+.navbar-brand h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900 !important;
+  letter-spacing: -0.25rem;
+}
+.nav-item {
+  font-weight: 700;
+  font-size: small;
+}
+.nav-a {
+  padding-left: 250px !important;
+}
+/* video banner */
+video {
+  padding: 0 1% 4% 1%;
+}
+
+/* expert section */
+.sml-hr {
+  width: 70px;
+  height: 3px;
+  background-color: #c09458;
+}
+.expert-field {
+  padding: 1% 8% 1% 10%;
+}
+.expert-field-left {
+  padding: 11% 0 5% 0 !important;
+}
+.expert-img {
+  width: 500px;
+}
+.expert-p {
+  color: #404040;
+  font-family: "Merriweather";
+  font-size: 18px;
+  line-height: 27px;
+  font-style: italic;
+  text-align: left;
+}
+.expert-h4 {
+  letter-spacing: 0.25rem;
+  font-weight: 700;
+}
+.expert-h3 {
+  letter-spacing: -0.1rem;
+  font-weight: 700;
+}
+.expert-a {
+  color: #404040;
+  font-size: small;
+}
+.expert-a:hover {
+  color: #c09458;
+}
+hr {
+  width: 80%;
+  margin: 3% auto 0 auto !important ;
+  border-bottom: dashed !important;
+  border-top: none !important;
+}
+.card-wrapper {
+  display: flex;
+  margin: 4%;
+  padding: 2%;
+
+
+}
+.card{
+  text-align: center;
+  margin-left: 3%;
+}
+.card-carousel-field{
+  padding-left:25% !important;
+  padding-top: 8%;
+}
+.card-title{
+  font-weight: 800;
+}
+.btn-detail{
+ font-weight: 700;
+  font-family: "montserrat" !important;
+  border: rgb(204, 203, 203) solid 1px !important;
+}
+.btn-detail:hover{
+  background-color: rgb(226, 224, 224) !important;
+  color: black !important;
+}
+/* service-pricelist field */
+#service-priclist{
+  text-align: left;
+}
+.ser-price{
+  padding-top: 4%;
+  padding-left: 6% !important;
+}
+.service-pricelist-field{
+  padding-top: 10% !important;
+  padding-left: 10% !important;
+}
+
+.tr-desc{
+ padding-top: 16px;
+ color: gray;
+ font-size: small;
+}
+.tr-price{
+  padding-left: 50px;
+}
+.th-head{
+  padding-top: 7%;
+}
+.price-btn{
+  border-radius: 0% !important;
+  background-color: #c09458 !important;
+  border: #c09458 !important;
+  margin-top: 5%;
+}
+
+/* testimonials */
+#testimonials{
+  text-align: center;
+}
+.test-hr{
+  width: 5%;
+  border: #c09458 solid !important;
+}
+.card-wrap{
+  display: flex;
+}
+.customer-name{
+  color: #c09458;
+}
+.testimonial-card{
+  text-align: left;
+}
+.testimonial-p{
+  color: #404040;
+  font-family: "Merriweather";
+  font-size: 18px;
+  line-height: 27px;
+  font-style: italic;
+  font-weight: bold;
+}
+.car-item{
+    padding-left:10% ;
+}
+
+/* images field */
+.images-field{
+  padding-top: 15%;
+}
+/* recent-news field */
+#recent-news{
+  text-align: center;
+  padding-top: 6%;
+}
+.recent-news-card{
+  display: flex;
+}
